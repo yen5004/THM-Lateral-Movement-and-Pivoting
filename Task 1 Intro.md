@@ -29,7 +29,7 @@ This should resolve to the IP of your DC.
 
 Note: DNS may be reset on the AttackBox roughly every 3 hours. If this occurs, you will have to restart the systemd-resolved service. If your AttackBox terminates and you continue with the room at a later stage, you will have to redo all the DNS steps.
 
-You should also take the time to make note of your VPN IP. Using ifconfig or ip a, make note of the IP of the lateralmovement network adapter. This is your IP and the associated interface that you should use when performing the attacks in the tasks.
+You should also take the time to make note of your VPN IP. Using `ifconfig` or `ip a`, make note of the IP of the lateralmovement network adapter. This is your IP and the associated interface that you should use when performing the attacks in the tasks.
 
 ## Other Hosts
 If you are going to use your own attack machine, an OpenVPN configuration file will have been generated for you once you join the room. Go to your access page. Select **`Lateralmovementandpivoting`** from the VPN servers (under the network tab) and download your configuration file.
